@@ -1,0 +1,39 @@
+
+.allposts{
+  padding-top: 60px
+}
+.allposts .div-flex{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.allposts .card{
+  min-width: 300px;
+  max-width: 1000px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.card-text,
+.allposts .div-flex{
+  padding-left: 25px;
+  min-width: 280px;
+  max-width: 900px;
+}
+.card-body img{
+  margin-right: 15px;
+}
+.comment-container{
+  margin-top: 30px;
+}
+.comment-container h5{
+  margin-left: 10%;
+  margin-bottom: 10px;
+}
+.comment-container .comment-body{
+  display: flex;
+  align-items: center;
+}
+.comment-container span{
+  display: inline-block;
+  width: 80%;
+}
